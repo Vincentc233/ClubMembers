@@ -10,5 +10,12 @@ public class Main {
         ClubMembers cList = new ClubMembers(memList);
         System.out.println(cList.removeMembers(2019));
         System.out.println(cList.getList());
+
+
+        String[] sList = {"a", "b", "c", "d"};
+        ClubMembers dlist = new ClubMembers();
+        dlist.addMembers(sList, 2020);
+        System.out.println(dlist.getList());
+
     }
 }

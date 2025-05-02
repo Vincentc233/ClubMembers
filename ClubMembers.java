@@ -7,7 +7,8 @@ public class ClubMembers
             memberList.add(b[i]); 
         }
     }
-
+    public ClubMembers(){
+    }
     public void addMembers(String[] names, int gradYear)
     { 
         for(int i = 0; i< names.length; i++){
